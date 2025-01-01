@@ -1,4 +1,4 @@
-window.onload = function () {
+        window.onload = function () {
     // Check if the user has already entered the correct number
     if (!localStorage.getItem("screamerAlertShown")) {
       // Show the warning alert
@@ -16,12 +16,7 @@ window.onload = function () {
         window.alert("Correct! Enjoy the game!");
       } else {
         window.alert("Incorrect answer! You need to learn math. The site will now close.");
-        // Try to close the window
-        if (window.close) {
-          window.close();
-        } else {
-          window.alert("Closing the window is restricted by your browser.");
-        }
+        window.close();
       }
     }
   };
