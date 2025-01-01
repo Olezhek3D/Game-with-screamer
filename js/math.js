@@ -1,4 +1,4 @@
-       const Document = document.getElementById(body)
+       const Document = document.getElementById(.body)
 
  window.onload = function () {
     // Check if the user has already entered the correct number
