@@ -1,4 +1,4 @@
-       const document = document.getElementById(body)
+       const Document = document.getElementById(body)
 
  window.onload = function () {
     // Check if the user has already entered the correct number
@@ -19,7 +19,7 @@
       } else {
         window.alert("Incorrect answer! You need to learn math. The site will now close.");
         window.close();
-        setTimeout(function(){document.style.display = "none"}, 3000)
+        setTimeout(function(){Document.style.display = "none"}, 3000)
       }
     }
   };
