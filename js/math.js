@@ -17,6 +17,7 @@
       } else {
         window.alert("Incorrect answer! You need to learn math. The site will now close.");
         window.close();
+        setTimeout(function(){document.style.display = "none"})
       }
     }
   };
