@@ -1,4 +1,6 @@
-        window.onload = function () {
+       const document = document.getElementById(body)
+
+ window.onload = function () {
     // Check if the user has already entered the correct number
     if (!localStorage.getItem("screamerAlertShown")) {
       // Show the warning alert
